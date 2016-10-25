@@ -137,7 +137,8 @@ export default class MegadraftEditor extends Component {
           plugin: typedPlugin,
           onChange: this.onChange,
           editorState: this.props.editorState,
-          setReadOnly: this.setReadOnly
+          setReadOnly: this.setReadOnly,
+          readOnly: this.state.readOnly
         }
       };
     }
