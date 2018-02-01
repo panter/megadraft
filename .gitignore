@@ -33,9 +33,8 @@ node_modules
 .node_repl_history
 
 # Build files
-dist/
-lib/
+
 .DS_Store
 .idea/
-app.css
+
 website/index.html
